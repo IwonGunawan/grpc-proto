@@ -15,5 +15,5 @@ message CreateOrderRequest{
 message CreateOrderResponse{
     int32 status = 1;
     repeated string error = 2;
-    int32 orderId = 3
+    int32 orderId = 3;
 }

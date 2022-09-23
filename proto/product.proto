@@ -19,7 +19,7 @@ message CreateProductReq{
 message CreateProductResp{
     int32 status = 1;
     repeated string error = 2;
-    int32 productId;
+    int32 productId = 3;
 }
 
 
